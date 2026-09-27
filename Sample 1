@@ -1,14 +1,105 @@
-export default function Home() {
-  return (
-    <main className="flex min-h-screen items-center justify-center bg-blue-50">
-      <div className="text-center">
-        <h1 className="text-5xl font-bold text-blue-600">
-          Welcome to My Website
-        </h1>
-        <p className="mt-4 text-gray-600">
-          Hosted on Vercel 🚀
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krushna Kale Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            line-height: 1.6;
+            background: #f4f7fa;
+        }
+
+        header {
+            background: #0078d4;
+            color: white;
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        nav {
+            background: #005a9e;
+            padding: 10px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 50px 20px;
+        }
+
+        .card {
+            background: white;
+            padding: 20px;
+            margin-top: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            background: #0078d4;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 20px;
+            background: #0078d4;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Krushna Kale</h1>
+    <p>Production Preparation Engineer</p>
+    #contactContact Me</a>
+</header>
+
+<nav>
+    #aboutAbout</a>
+    #skillsSkills</a>
+    #projectsProjects</a>
+    #contactContact</a>
+</nav>
+
+<section id="about">
+    <div class="card">
+        <h2>About Me</h2>
+        <p>
+            I am a Production Preparation Engineer based in Bengaluru.
+            Passionate about manufacturing processes, production planning,
+            engineering excellence, and continuous improvement.
         </p>
-      </div>
-    </main>
-  );
-}
+    </div>
+</section>
+
+<section id="skills">
+    <div class="card">
+        <h2>Skills</h2>
+        <ul>
+            <li>Production Engineering</li>
+            <li>Manufacturing Process Planning</li>
+            <li>Lean Manufacturing</li>
+            <li>Quality Improvement</li>
+            <li>
